@@ -19,6 +19,10 @@
 <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
         <span class="logo">Мой проект</span>
+        <a href="https://itproger.com/courses/" class="btn btn-outline-success">itProger</a>
+        <a href="http://79.98.142.114:8080" class="btn btn-outline-danger">Jenkins</a>
+        <a href="http://79.98.142.114:9090" type="button" class="btn btn-outline-primary">Prometius</a>
+        <a href="https://llavka.ru" type="button" class="btn btn-outline-info">Лапушкина Лавка</a>
         <div id="datetime"></div>
     <script>
         function updateDateTime() {
@@ -39,7 +43,7 @@
         updateDateTime();
         setInterval(updateDateTime, 1000);
     </script>
-    <a href="{% url 'create' %}"><li><button class="btn btn-info"><i class="fas fa-plus-circle"></i>Добавить пост</button></li></a>
+
     </div>
 </nav>
     <aside>
@@ -47,7 +51,7 @@
         <h3>Навигация</h3>
         <ul>
             <a href="{% url 'home' %}"><li><i class="fas fa-home"></i>  Главная</li></a>
-<!--            <a href="{% url 'about' %}"><li><i class="fas fa-address-card"></i>  О себе</li></a>-->
+<!--            <a href="{% url 'about' %}"><li><i class="fas fa-address-card"></i>  </li></a>-->
             <a href="{% url 'news_home' %}"><li><i class="fas fa-address-card"></i>  Новости</li></a>
             <a href="{% url 'weather' %}"><li><i class="fas fa-address-card"></i>  Погода</li></a>
         </ul>
