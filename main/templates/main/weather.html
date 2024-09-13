@@ -8,10 +8,10 @@
          <div class="col-3 offset-1">
             <h3>Погода в вашем городе</h3>
              <form action="">
-<!--                 {% csrf_token %}-->
+                 {% csrf_token %}
                  <label for="city">Город</label>
                  <input type="text" id="city" class="form-control" name="city" placeholder="Введите город">
-<!--                 {{ form.name }}-->
+                {{ form.name }}
                  <input type="submit" name="send" value="Узнать" class="mt-2 btn btn-danger">
              </form>
          </div>
