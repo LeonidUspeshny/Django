@@ -1,0 +1,119 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #2c2c2c;
+    height: 100%; /* Устанавливаем высоту для html и body */
+    margin: 0; /* Убираем отступы по умолчанию */
+
+}
+
+aside {
+    float: left;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 10px solid #4d4d4d;
+
+}
+
+aside1 {
+    float: right;
+    background: #181818;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 10px solid #4d4d4d;
+
+}
+
+aside img {
+    width: 80px;
+    float: left;
+}
+aside .logo {
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -5px;
+}
+aside h3 {
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+aside ul {list-style: none}
+
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+
+}
+
+
+aside ul li:hover, aside ul a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+
+}
+
+main .features {
+    background-color: #f0f0f0; /* Светлый фон */
+    padding: 100px; /* Отступы вокруг содержимого */
+    margin: 10px; /* Отступы внешние */
+    border-radius: 8px; /* Закругленные углы */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Небольшая тень */
+    font-family: Arial, sans-serif; /* Шрифт */
+    float: left;
+    color: #181818;
+    text-align: center;
+    width: 60%;
+    height: 100%; /* Устанавливаем высоту контейнера 100% */
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: center; /* Центрируем по горизонтали */
+    border-right: 10px solid #4d4d4d;
+}
+
+main .container {
+    background-color: #f0f0f0; /* Светлый фон */
+    padding: 100px; /* Отступы вокруг содержимого */
+    margin: 10px; /* Отступы внешние */
+    border-radius: 8px; /* Закругленные углы */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Небольшая тень */
+    font-family: Arial, sans-serif; /* Шрифт */
+    float: left;
+    color: #181818;
+    text-align: center;
+    width: 60%;
+    height: 100%; /* Устанавливаем высоту контейнера 100% */
+    align-items: center; /* Центрируем по вертикали */
+    justify-content: center; /* Центрируем по горизонтали */
+    border-right: 10px solid #4d4d4d;
+}
+
+main . features h1 {font-size: 50px;}
+main . features p {max-width: 400px; margin: 20px auto}
+
+.alert-warning {
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+    margin-left: 26%;
+}
+
+form {
+    margin-left: 18%;
+    width: 300px;
+    margin-top: 50px;
+    text-align: center;
+}
+
